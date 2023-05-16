@@ -8,9 +8,9 @@ function App() {
 
   return (
    <>
-      <div className='login'>
+      <div className='Login'>
         <form action="POST">
-          <ul>
+          <ul className='List'>
             <li>
               <label htmlFor="user">user</label>
               <input type="text" id='user' />
